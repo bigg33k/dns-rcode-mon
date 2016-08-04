@@ -1,4 +1,4 @@
-Adaption of https://github.com/bigg33k/dnsmon to measure a specific node entry for response, RCODE, and other stiff.
+Adaption of https://github.com/bigg33k/dnsmon to measure a specific node entry for response, RCODE, and other stuff.
 The results are pushed to graphite using statsd. python-statsd is required for these to work.
 
 I used this crontab to manage things:
