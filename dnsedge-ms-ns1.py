@@ -119,7 +119,6 @@ while (1):
 		proptimer.stop(mystatsd)
 
 	message = '%s.%s.%s.%s %2f %d\n' % (mymetricprefix,metricdnsrecord,metricauthservername,dns.rcode.to_text(rcode),t_total,time.time())
-	print "%d" % time.time()
 
 	if METRICS:
 		metrics_thread = threading.Thread(target=send_metrics)
